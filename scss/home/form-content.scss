@@ -1,0 +1,96 @@
+.form-content {
+    max-width: $home-form-width;
+    min-height: 200px;
+    margin: $center;
+    margin-top: 50px;
+
+    .form-title {
+        font-family: "ProximaNovaCnThin";
+        font-size: 60px;
+    }
+
+    .top-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .short-holder {
+            input {
+                height: 58px;
+                width: 344px;
+                padding-left: 10px;
+                border: 2px solid $site-blue;
+                font-family: "GillSansReg";
+                font-size: 15px;
+            }
+        }
+        
+        .long-holder {
+            input {
+                height: 58px;
+                width: 453px;
+                padding-left: 10px;
+                border: 2px solid $site-blue;
+                font-family: "GillSansReg";
+                font-size: 15px;
+            }
+            
+        }
+    }
+
+    .check {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        h3 {
+            font-family: "GillSansReg";
+            font-size: 18px;
+            font-weight: 100;
+            padding-top: 20px;
+        }
+
+        .check-in-out {
+            input {
+                font-family: "GillSansReg";
+                font-size: 18px;
+                height: 58px;
+                width: 698px;
+                padding-left: 10px;
+                border: 2px solid $site-blue;
+            }
+
+            .icon {
+                margin-left: -40px;
+            }
+        }
+    }
+
+    .message-box {
+        input {
+            font-family: "GillSansReg";
+            font-size: 18px;
+            margin-top: 20px;
+            width: 818px;
+            height: 192px;
+            padding-left: 10px;
+            padding-bottom: 130px;
+            border: 2px solid $site-blue;
+        }
+    }
+
+    .submit {
+        font-family: "GillSansReg";
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+        background-color: $site-blue;
+        border: none;
+        width: $home-form-width;
+        height: 60px;
+        border-radius: 25px;
+        margin-top: 37px;
+    }
+}

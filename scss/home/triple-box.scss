@@ -1,0 +1,70 @@
+.triple-box {
+    max-width: $home-form-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $site-white;
+
+    .box-title {
+        text-transform: uppercase;
+        font-family: "ProximaNovaExCnThin";
+        font-size: 60px;
+        padding-top: 47px;
+    }
+
+    .box-desc {
+        font-family: "ProximaNovaExCnThin";
+        font-size: 30px;
+    }
+
+    .learn-more {
+        font-family: "GillSansReg";
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+        background-color: $site-blue;
+        border: none;
+        width: 133px;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 55px;
+    }
+
+    .country-box1 {
+        width: 236px;
+        height: 304px;
+        margin-top: -60px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-01.jpg);
+
+        .box-title {
+            color: $site-white;
+        }
+    }
+
+    .country-box2 {
+        width: 236px;
+        height: 304px;
+        margin-top: -60px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-02.jpg);
+    }
+
+    .country-box3 {
+        width: 236px;
+        height: 304px;
+        margin-top: -60px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-03.jpg);
+    }
+}

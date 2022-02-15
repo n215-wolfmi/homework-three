@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: ProximaNovaExCnThin;
+  src: url(../css/fonts/Proxima-Nova-ExCn-Thin.otf);
+}
+@font-face {
+  font-family: ProximaNovaCnThin;
+  src: url(../css/fonts/Proxima-Nova-Cond-Thin.otf);
+}
+@font-face {
+  font-family: GillSansIt;
+  src: url(../css/fonts/Gill-Sans-Italic.ttf);
+}
+@font-face {
+  font-family: GillSansReg;
+  src: url(../css/fonts/Gill-Sans.ttf);
+}
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: solid white 2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 5px;
+  font-family: "GillSansReg";
+  font-size: 20px;
+}
+nav .links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+nav .links span {
+  color: #FFFFFF;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+}
+
+.form-content {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.form-content .form-title {
+  font-family: "ProximaNovaCnThin";
+  font-size: 60px;
+}
+.form-content .top-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.form-content .top-boxes .short-holder input {
+  height: 58px;
+  width: 344px;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+.form-content .top-boxes .long-holder input {
+  height: 58px;
+  width: 453px;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+.form-content .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.form-content .check h3 {
+  font-family: "GillSansReg";
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+.form-content .check .check-in-out input {
+  font-family: "GillSansReg";
+  font-size: 18px;
+  height: 58px;
+  width: 698px;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+}
+.form-content .check .check-in-out .icon {
+  margin-left: -40px;
+}
+.form-content .message-box input {
+  font-family: "GillSansReg";
+  font-size: 18px;
+  margin-top: 20px;
+  width: 818px;
+  height: 192px;
+  padding-left: 10px;
+  padding-bottom: 130px;
+  border: 2px solid #79ADDC;
+}
+.form-content .submit {
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #79ADDC;
+  border: none;
+  width: 818px;
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 37px;
+}
+
+.info-box {
+  margin: 0 auto;
+  color: #FFFFFF;
+  width: 370px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.info-box .ban-title {
+  height: 68px;
+  width: 147px;
+  margin: auto;
+  padding-top: 172px;
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  font-weight: 100;
+}
+.info-box .ban-desc {
+  padding-top: 90px;
+  font-family: "GillSansIt";
+  font-size: 20;
+}
+.info-box .read-more {
+  background-color: #79ADDC;
+  color: #FFFFFF;
+  width: 121px;
+  height: 40px;
+  margin-top: 40px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+
+.triple-box {
+  max-width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+}
+.triple-box .box-title {
+  text-transform: uppercase;
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+}
+.triple-box .box-desc {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+}
+.triple-box .learn-more {
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #79ADDC;
+  border: none;
+  width: 133px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 55px;
+}
+.triple-box .country-box1 {
+  width: 236px;
+  height: 304px;
+  margin-top: -60px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+}
+.triple-box .country-box1 .box-title {
+  color: #FFFFFF;
+}
+.triple-box .country-box2 {
+  width: 236px;
+  height: 304px;
+  margin-top: -60px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+}
+.triple-box .country-box3 {
+  width: 236px;
+  height: 304px;
+  margin-top: -60px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+}
+
+.dropbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  height: 58px;
+}
+.dropbox-container .drop-title {
+  font-family: "GillSansReg";
+  font-size: 18px;
+}
+.dropbox-container .dropbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 58px;
+  width: 103px;
+  border: 2px solid #79ADDC;
+}
+.dropbox-container .dropbox .drop-desc {
+  font-family: "GillSansReg";
+  font-size: 18;
+  text-align: center;
+  margin: auto;
+}
+.dropbox-container .dropbox i {
+  margin: 13px auto;
+  font-size: 25px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+footer .footer-container {
+  margin: 0 auto;
+  padding-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+  width: 980px;
+}
+footer .footer-container .logo {
+  width: 92px;
+  height: 42px;
+  border: solid white 2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 5px;
+  font-family: "GillSansReg";
+  font-size: 20px;
+}
+footer .footer-container .copy {
+  font-family: "GillSansReg";
+  font-size: 12px;
+}
+footer .footer-container .socials {
+  font-size: 22px;
+}
